@@ -17,12 +17,6 @@ Usuwać wydatki.
 
 Kategorie: Użytkownicy mogą przypisać wydatki do różnych kategorii (np. jedzenie, transport, rozrywka, rachunki).
 
-Miesięczne podsumowanie: Użytkownicy mogą generować miesięczne podsumowanie swoich wydatków oraz zobaczyć wykresy przedstawiające ich wydatki.
-
-Eksport raportów: Możliwość eksportowania raportów do plików CSV lub PDF.
-
-Responsywność: Aplikacja jest responsywna i działa na różnych urządzeniach, w tym komputerach i urządzeniach mobilnych.
-
 Wymagania
 
 Aby uruchomić aplikację lokalnie, musisz mieć zainstalowane następujące oprogramowanie:
