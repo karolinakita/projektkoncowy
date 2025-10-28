@@ -8,4 +8,7 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),  # Ścieżka wylogowania
     path('transactions/', views.transaction_list, name='transaction_list'),
     path('add/', views.add_transaction, name='add_transaction'),
+    path('transactions/', views.transaction_list, name='transaction_list'),
+    path('transaction/delete/<int:transaction_id>/', views.delete_transaction, name='delete_transaction'),
 ]
+

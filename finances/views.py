@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect
+from django.shortcuts import render, get_object_or_404, redirect
 from .forms import TransactionForm
 from .models import Transaction
 from django.contrib.auth.decorators import login_required
@@ -32,4 +33,7 @@ def transaction_list(request):
 def home(request):
     return render(request, 'home.html')
 
-
+def delete_transaction(request, transaction_id):
+    transaction = get_object_or_404(Transaction, id=transaction_id, user=request.user)  # Pobieramy transakcję użytkownika
+    transaction.delete()  # Usuwamy transakcję
+    return redirect('transaction_list')  # Po usunięciu przekierowujemy na stronę z listą transakcji
