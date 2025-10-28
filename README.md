@@ -11,8 +11,6 @@ Zarządzanie wydatkami: Użytkownicy mogą:
 
 Dodawać nowe wydatki.
 
-Edytować istniejące wydatki.
-
 Usuwać wydatki.
 
 Kategorie: Użytkownicy mogą przypisać wydatki do różnych kategorii (np. jedzenie, transport, rozrywka, rachunki).
