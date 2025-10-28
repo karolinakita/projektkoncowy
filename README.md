@@ -5,7 +5,7 @@ Aplikacja do zarządzania wydatkami. Umożliwia użytkownikom śledzenie swoich 
 Funkcjonalności
 
 Logowanie: Użytkownicy mogą się zarejestrować, a następnie zalogować w celu zarządzania swoimi wydatkami. Na potrzeby projektu stworzono domyślny profil:
-Nazwa użytkownika: user | Hasło: projekt123
+Nazwa użytkownika: Karolina | Hasło: haslo
 
 Zarządzanie wydatkami: Użytkownicy mogą:
 
